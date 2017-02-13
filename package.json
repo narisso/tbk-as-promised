@@ -1,0 +1,36 @@
+{
+  "name": "tbk-as-promised",
+  "version": "0.1.0",
+  "description": "Transbank services for Node.js with promise support.",
+  "main": "main.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "*"
+  },
+  "keywords": [
+    "soap",
+    "transbank",
+    "promise"
+  ],
+  "author": "Nicolas Risso",
+  "license": "MIT",
+  "bugs": {
+    "url": "*/issues"
+  },
+  "homepage": "*",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "node-uuid": "^1.4.7",
+    "soap": "^0.18.0",
+    "ursa": "^0.9.4",
+    "xml-crypto": "^0.8.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^2.4.5"
+  }
+}
