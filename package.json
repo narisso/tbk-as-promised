@@ -23,9 +23,9 @@
   "homepage": "*",
   "dependencies": {
     "ejs": "^2.5.5",
-    "node-uuid": "^1.4.7",
-    "soap": "^0.18.0",
+    "strong-soap": "^1.2.0",
     "ursa": "^0.9.4",
+    "uuid": "^3.0.1",
     "xml-crypto": "^0.8.5"
   },
   "devDependencies": {
