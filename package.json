@@ -1,6 +1,6 @@
 {
   "name": "tbk-as-promised",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Transbank services for Node.js with promise support.",
   "main": "main.js",
   "scripts": {
