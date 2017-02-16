@@ -26,7 +26,8 @@
     "node-uuid": "^1.4.7",
     "soap": "^0.18.0",
     "ursa": "^0.9.4",
-    "xml-crypto": "^0.8.5"
+    "xml-crypto": "^0.8.5",
+    "xmldom": "^0.1.27"
   },
   "devDependencies": {
     "chai": "^3.5.0",
