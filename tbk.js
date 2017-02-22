@@ -7,6 +7,9 @@ var cert = fs.readFileSync(path.join(__dirname, 'keys', '597020000547.crt'));
 var oneClick = new OneClick();
 
 oneClick.setSigningKeys(key, cert);
+oneClick.setRequestCallback(function(response){
+  // console.log(response.request.body);
+})
 oneClick.setValidationCert(fs.readFileSync(path.join(__dirname, 'keys', 'tbk.pem')));
 
 var promise = oneClick.initInscription('asd', 'asd@gmail.com', 'www.google.com');
