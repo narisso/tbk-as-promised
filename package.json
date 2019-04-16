@@ -22,10 +22,11 @@
   },
   "homepage": "*",
   "dependencies": {
+    "@fidm/x509": "^1.2.1",
     "ejs": "^2.5.5",
+    "node-rsa": "^1.0.5",
     "node-uuid": "^1.4.7",
-    "soap": "^0.18.0",
-    "ursa": "^0.9.4",
+    "soap": "^0.26.0",
     "xml-crypto": "^0.8.5",
     "xmldom": "^0.1.27"
   },
